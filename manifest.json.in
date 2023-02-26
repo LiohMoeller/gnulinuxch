@@ -1,0 +1,15 @@
+{
+    "name": "gnulinuxch.liohmoeller",
+    "description": "WebApp for GNU/Linux.ch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "GNU/Linux.ch",
+    "hooks": {
+        "gnulinuxch": {
+            "apparmor": "gnulinuxch.apparmor",
+            "desktop":  "gnulinuxch.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Lioh Moeller <lioh.moeller@gmx.net>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

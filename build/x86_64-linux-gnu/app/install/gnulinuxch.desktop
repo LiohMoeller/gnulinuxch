@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=GNU/Linux.ch
+Exec=qmlscene %U qml/Main.qml --disable-gpu
+Icon=assets/logo.svg
+Terminal=false
+Type=Application
+Keywords=Webapp;
+X-Ubuntu-Touch=true
+X-Ubuntu-Default-Department-ID=communication
+X-Ubuntu-StageHint=SideStage
+X-Ubuntu-Splash-Color=#353535
+X-Ubuntu-Splash-Show-Header=false
+X-Ubuntu-Splash-Image=assets/splash.svg

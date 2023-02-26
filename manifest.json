@@ -1,0 +1,15 @@
+{
+    "name": "@APP_ID@",
+    "description": "WebApp for GNU/Linux.ch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "gnulinuxch": {
+            "apparmor": "gnulinuxch.apparmor",
+            "desktop":  "gnulinuxch.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Lioh Moeller <lioh.moeller@gmx.net>",
+    "framework": "ubuntu-sdk-16.04.5"
+}
