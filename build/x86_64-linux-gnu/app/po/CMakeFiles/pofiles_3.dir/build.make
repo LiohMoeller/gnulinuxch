@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lioh/gln/test
+CMAKE_SOURCE_DIR = /home/lioh/gln/gnulinuxch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lioh/gln/test/build/x86_64-linux-gnu/app
+CMAKE_BINARY_DIR = /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app
 
 # Utility rule file for pofiles_3.
 
@@ -69,8 +69,8 @@ include po/CMakeFiles/pofiles_3.dir/progress.make
 po/CMakeFiles/pofiles_3: po/nl.gmo
 
 po/nl.gmo: ../../../po/nl.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lioh/gln/test/build/x86_64-linux-gnu/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nl.gmo"
-	cd /home/lioh/gln/test/po && /usr/bin/msgfmt -o /home/lioh/gln/test/build/x86_64-linux-gnu/app/po/nl.gmo /home/lioh/gln/test/po/nl.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nl.gmo"
+	cd /home/lioh/gln/gnulinuxch/po && /usr/bin/msgfmt -o /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po/nl.gmo /home/lioh/gln/gnulinuxch/po/nl.po
 
 pofiles_3: po/CMakeFiles/pofiles_3
 pofiles_3: po/nl.gmo
@@ -82,10 +82,10 @@ po/CMakeFiles/pofiles_3.dir/build: pofiles_3
 .PHONY : po/CMakeFiles/pofiles_3.dir/build
 
 po/CMakeFiles/pofiles_3.dir/clean:
-	cd /home/lioh/gln/test/build/x86_64-linux-gnu/app/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles_3.dir/cmake_clean.cmake
+	cd /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po && $(CMAKE_COMMAND) -P CMakeFiles/pofiles_3.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/pofiles_3.dir/clean
 
 po/CMakeFiles/pofiles_3.dir/depend:
-	cd /home/lioh/gln/test/build/x86_64-linux-gnu/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lioh/gln/test /home/lioh/gln/test/po /home/lioh/gln/test/build/x86_64-linux-gnu/app /home/lioh/gln/test/build/x86_64-linux-gnu/app/po /home/lioh/gln/test/build/x86_64-linux-gnu/app/po/CMakeFiles/pofiles_3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lioh/gln/gnulinuxch /home/lioh/gln/gnulinuxch/po /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po/CMakeFiles/pofiles_3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/pofiles_3.dir/depend
 

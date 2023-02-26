@@ -1,4 +1,4 @@
-# Install script for directory: /home/lioh/gln/test/po
+# Install script for directory: /home/lioh/gln/gnulinuxch/po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/share/locale/de/LC_MESSAGES" TYPE FILE RENAME "gnulinuxch.liohmoeller.mo" FILES "/home/lioh/gln/test/build/x86_64-linux-gnu/app/po/de.gmo")
+  file(INSTALL DESTINATION "/share/locale/de/LC_MESSAGES" TYPE FILE RENAME "gnulinuxch.liohmoeller.mo" FILES "/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po/de.gmo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/share/locale/fr/LC_MESSAGES" TYPE FILE RENAME "gnulinuxch.liohmoeller.mo" FILES "/home/lioh/gln/test/build/x86_64-linux-gnu/app/po/fr.gmo")
+  file(INSTALL DESTINATION "/share/locale/fr/LC_MESSAGES" TYPE FILE RENAME "gnulinuxch.liohmoeller.mo" FILES "/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po/fr.gmo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,6 +75,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/share/locale/nl/LC_MESSAGES" TYPE FILE RENAME "gnulinuxch.liohmoeller.mo" FILES "/home/lioh/gln/test/build/x86_64-linux-gnu/app/po/nl.gmo")
+  file(INSTALL DESTINATION "/share/locale/nl/LC_MESSAGES" TYPE FILE RENAME "gnulinuxch.liohmoeller.mo" FILES "/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po/nl.gmo")
 endif()
 

@@ -114,24 +114,20 @@ Rectangle {
                   onTriggered: webview.myMobileUrl = "https://gnulinux.ch/mitschreiben"
               }
               Action {
-                  text: "\u2606 Unterstützen"
-                  onTriggered: webview.myMobileUrl = "https://gnulinux.ch/unterstuetzen"
+                  text: "Podcast"
+                  onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/podcast"
               }
               Action {
                   text: "Über Uns"
                   onTriggered: webview.myMobileUrl = "https://gnulinux.ch/ueber"
               }
               Action {
-                  text: "Pendler & Vielfahrer"
-                  onTriggered: webview.myMobileUrl = "https://www.bahn.de/angebot/pendler"
+                  text: "Partner"
+                  onTriggered: webview.myMobileUrl = "https://gnulinux.ch/partner"
               }
               Action {
-                  text: "Meine Tickets"
-                  onTriggered: webview.myMobileUrl = "https://fahrkarten.bahn.de/privatkunde/start/start.post?scope=login"
-              }
-              Action {
-                  text: "BahnCard & BahnBonus"
-                  onTriggered: webview.myMobileUrl = "https://fahrkarten.bahn.de/privatkunde/start/start.post?scope=login"
+                  text: "Impressum"
+                  onTriggered: webview.myMobileUrl = "https://gnulinux.ch/impressum"
               }
               MenuSeparator {
                      padding: 0
@@ -144,14 +140,70 @@ Rectangle {
                      }
                  }
               Action {
-                  text: "Ankunft / Abfahrt"
-                  onTriggered: webview.myMobileUrl = "https://mobile.bahn.de/bin/mobil/bhftafel.exe/dox?country=DEU&rt=1&use_realtime_filter=1&webview=&"
+                  text: "\u2606 Unterstützen"
+                  onTriggered: webview.myMobileUrl = "https://gnulinux.ch/unterstuetzen"
               }
-              Action {
-                  text: "Ist mein Zug pünktlich?"
-                  onTriggered: webview.myMobileUrl = "https://mobile.bahn.de/bin/mobil/trainsearch.exe/dox?webview=&"
 
-              }
+              Menu {
+                      title: qsTr("Kategorien")
+                      Action {
+                          text: "Apps"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/apps"
+                      }
+                      Action {
+                          text: "Desktop"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/desktop"
+                      }
+                      Action {
+                          text: "Distros"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/distros"
+                      }
+                      Action {
+                          text: "Events"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/events"
+                      }
+                      Action {
+                          text: "Events"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/events"
+                      }
+                      Action {
+                          text: "Gesellschaft"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/gesellschaft"
+                      }
+                      Action {
+                          text: "In eigener Sache"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/in-eigener-sache"
+                      }
+                      Action {
+                          text: "Meinung"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/meinung"
+                      }
+                      Action {
+                          text: "Privacy"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/privacy"
+                      }
+                      Action {
+                          text: "Projekte"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/projekte"
+                      }
+                      Action {
+                          text: "Spiele"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/spiele"
+                      }
+                      Action {
+                          text: "Technik"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/technik"
+                      }
+                      Action {
+                          text: "Testberichte"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/testberichte"
+                      }
+                      Action {
+                          text: "Tipps & Tricks"
+                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/tippstricks"
+                      }
+
+                  }
 
 
               delegate: MenuItem {

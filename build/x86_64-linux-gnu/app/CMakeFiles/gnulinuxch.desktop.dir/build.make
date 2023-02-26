@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lioh/gln/test
+CMAKE_SOURCE_DIR = /home/lioh/gln/gnulinuxch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lioh/gln/test/build/x86_64-linux-gnu/app
+CMAKE_BINARY_DIR = /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app
 
 # Utility rule file for gnulinuxch.desktop.
 
@@ -67,9 +67,9 @@ include CMakeFiles/gnulinuxch.desktop.dir/compiler_depend.make
 include CMakeFiles/gnulinuxch.desktop.dir/progress.make
 
 CMakeFiles/gnulinuxch.desktop:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lioh/gln/test/build/x86_64-linux-gnu/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into gnulinuxch.desktop..."
-	LC_ALL=C /usr/bin/intltool-merge -d -u /home/lioh/gln/test/po /home/lioh/gln/test/gnulinuxch.desktop.in gnulinuxch.desktop
-	sed -i 's/gnulinuxch-//g' /home/lioh/gln/test/build/x86_64-linux-gnu/app/gnulinuxch.desktop
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into gnulinuxch.desktop..."
+	LC_ALL=C /usr/bin/intltool-merge -d -u /home/lioh/gln/gnulinuxch/po /home/lioh/gln/gnulinuxch/gnulinuxch.desktop.in gnulinuxch.desktop
+	sed -i 's/gnulinuxch-//g' /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/gnulinuxch.desktop
 
 gnulinuxch.desktop: CMakeFiles/gnulinuxch.desktop
 gnulinuxch.desktop: CMakeFiles/gnulinuxch.desktop.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/gnulinuxch.desktop.dir/clean:
 .PHONY : CMakeFiles/gnulinuxch.desktop.dir/clean
 
 CMakeFiles/gnulinuxch.desktop.dir/depend:
-	cd /home/lioh/gln/test/build/x86_64-linux-gnu/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lioh/gln/test /home/lioh/gln/test /home/lioh/gln/test/build/x86_64-linux-gnu/app /home/lioh/gln/test/build/x86_64-linux-gnu/app /home/lioh/gln/test/build/x86_64-linux-gnu/app/CMakeFiles/gnulinuxch.desktop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lioh/gln/gnulinuxch /home/lioh/gln/gnulinuxch /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/CMakeFiles/gnulinuxch.desktop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gnulinuxch.desktop.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lioh/gln/test
+# Install script for directory: /home/lioh/gln/gnulinuxch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/." TYPE FILE FILES "/home/lioh/gln/test/build/x86_64-linux-gnu/app/manifest.json")
+  file(INSTALL DESTINATION "/." TYPE FILE FILES "/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/manifest.json")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/lioh/gln/test/gnulinuxch.apparmor")
+  file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/lioh/gln/gnulinuxch/gnulinuxch.apparmor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/lioh/gln/test/assets")
+  file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/lioh/gln/gnulinuxch/assets")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,7 +87,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/lioh/gln/test/qml")
+  file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/lioh/gln/gnulinuxch/qml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -99,12 +99,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/lioh/gln/test/build/x86_64-linux-gnu/app/gnulinuxch.desktop")
+  file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/gnulinuxch.desktop")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lioh/gln/test/build/x86_64-linux-gnu/app/po/cmake_install.cmake")
+  include("/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/po/cmake_install.cmake")
 
 endif()
 
@@ -116,5 +116,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lioh/gln/test/build/x86_64-linux-gnu/app/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

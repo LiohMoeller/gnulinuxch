@@ -53,10 +53,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lioh/gln/test
+CMAKE_SOURCE_DIR = /home/lioh/gln/gnulinuxch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lioh/gln/test/build/x86_64-linux-gnu/app
+CMAKE_BINARY_DIR = /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app
 
 # Utility rule file for gnulinuxch_FILES.
 
@@ -78,6 +78,6 @@ CMakeFiles/gnulinuxch_FILES.dir/clean:
 .PHONY : CMakeFiles/gnulinuxch_FILES.dir/clean
 
 CMakeFiles/gnulinuxch_FILES.dir/depend:
-	cd /home/lioh/gln/test/build/x86_64-linux-gnu/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lioh/gln/test /home/lioh/gln/test /home/lioh/gln/test/build/x86_64-linux-gnu/app /home/lioh/gln/test/build/x86_64-linux-gnu/app /home/lioh/gln/test/build/x86_64-linux-gnu/app/CMakeFiles/gnulinuxch_FILES.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lioh/gln/gnulinuxch /home/lioh/gln/gnulinuxch /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app /home/lioh/gln/gnulinuxch/build/x86_64-linux-gnu/app/CMakeFiles/gnulinuxch_FILES.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gnulinuxch_FILES.dir/depend
 
