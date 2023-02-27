@@ -9,7 +9,7 @@
             "desktop":  "gnulinuxch.desktop"
         }
     },
-    "version": "1.0.0",
+    "version": "1.1",
     "maintainer": "Lioh Moeller <lioh.moeller@gmx.net>",
     "framework" : "@CLICK_FRAMEWORK@"
 }
