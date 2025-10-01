@@ -1,6 +1,6 @@
 ---
-framework: ubuntu-sdk-20.04
-clickable_minimum_required: "7"
+framework: ubuntu-touch-24.04-1.x
+clickable_minimum_required: "8"
 builder: pure-qml-cmake
 always_clean: true
 kill: qmlscene
