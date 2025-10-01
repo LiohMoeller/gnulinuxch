@@ -163,10 +163,6 @@ Rectangle {
                           onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/events"
                       }
                       Action {
-                          text: "Events"
-                          onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/events"
-                      }
-                      Action {
                           text: "Gesellschaft"
                           onTriggered: webview.myMobileUrl = "https://gnulinux.ch/category/gesellschaft"
                       }
